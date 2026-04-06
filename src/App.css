@@ -1,0 +1,103 @@
+/* Center everything on the screen */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  font-family: 'Inter', sans-serif;
+}
+
+/* The Login Card */
+.login-form {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.login-form p {
+  color: #6b7280;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+/* Input Fields */
+.input-group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  box-sizing: border-box; /* Important for width */
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #646cff; /* Vite purple */
+}
+
+/* The Button */
+.login-button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: #535bf2;
+}
+
+.signup-link {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.signup-link a {
+  color: #646cff;
+  text-decoration: none;
+}
+.toggle-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.toggle-text span {
+  color: #646cff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-text span:hover {
+  color: #535bf2;
+}
